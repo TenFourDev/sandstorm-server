@@ -2,9 +2,9 @@ Contact me on Discord (username): SuspiOwl
 Discord: https://discord.tenfour.id
 
 Zombie Frenzy Mode:
-- 4vs84 Zombie (84-96 enemies, depending on map sizes)
+- 4vs112 Zombie (112-144 enemies, depending on map sizes)
 - Faster Reload & Bolt
-- 2.5x Primary Ammo, 3x Secondary Ammo, 3x Launcher Ammo (single use launcher unaffected)
+- 3x Primary Ammo, 3x Secondary Ammo, 3x Launcher Ammo (single use launcher unaffected)
 - FullyLoaded mutator (Gun Master class, no Commander / Fire Support)
 - Ping Mod (press T)
 - 2 starting waves, +1 waves per objective (+ 1 wave every 100-250 kills)

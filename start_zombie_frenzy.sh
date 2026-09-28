@@ -20,6 +20,6 @@ Insurgency/Binaries/Linux/InsurgencyServer-Linux-Shipping \
     Tell?Scenario=Scenario_Tell_Survival?Lighting=Night?MaxPlayers=5 \
     -ModDownloadTravelTo="$MOD_DOWNLOAD_TRAVEL_TO" \
     -MapCycle=MapCycleZombie.txt -SecurityCode=none -motd=MotdZombieFrenzy -Mods -Port=27104 -QueryPort=27133 -NoEAC -GameStats \
-    -mutators=Flashlight_Shadows,MapVoteLabels,MoreAmmoPlus,MoreAmmo,FullyLoaded,AdminCommands,JoinLeaveMessage,PingExt,StallCounter,ImprovedAI_2,Reloads,Bolts,Quickdraw,ZombiesLite,CapCount,Canoeing,AwardWaves,Healthy,healthmodifier \
+    -mutators=Flashlight_Shadows,MapVoteLabels,MoreAmmoPlus,MoreAmmo,FullyLoaded,AdminCommands,JoinLeaveMessage,PingExt,StallCounter,ImprovedAI_2,Reloads,Bolts,Quickdraw,ZombiesLiteRegular,CapCount,Canoeing,AwardWaves,Healthy,healthmodifier,FastMovement \
     -GameStatsToken="${GAME_STATS_TOKEN}" -GSLTToken="${GSLT_TOKEN_ZOMBIE_FRENZY}" \
-    -hostname="[Ten Four] Zombie Frenzy 4vs84 (Gun Master, Waves)"
+    -hostname="[Ten Four] Zombie Frenzy 4vs128 (Gun Master, Waves)"
