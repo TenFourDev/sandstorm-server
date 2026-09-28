@@ -4,7 +4,7 @@ Discord: https://discord.tenfour.id
 NO EXCESSIVE SMOKE / C4 / IED ABUSE!
 
 Checkpoint:
-- 8vs48 AI 1.0
+- 8vs48 AI
 - 1 starting wave, +1 wave per objective
 - 30 seconds wave respawn time
 
