@@ -2,7 +2,7 @@ Contact me on Discord (username): SuspiOwl
 Discord: https://discord.tenfour.id
 
 Checkpoint:
-- 8vs36 ImprovedAI (Difficulty: 0.8 Normal, 1.0 Hard)
+- 8vs40 ImprovedAI (Difficulty: 0.8 Normal, 1.0 Hard)
 - Ping Mod (press T)
 - 4 starting waves, +2 waves per objective, +1 wave every 25-60 enemies killed
 - 15 seconds wave respawn time

@@ -19,4 +19,4 @@ Insurgency/Binaries/Linux/InsurgencyServer-Linux-Shipping \
     "$TRAVEL_TO" \
     -MapCycle=MapCycleVanilla.txt -motd=MotdVanilla -Port=27105 -QueryPort=27134 -NoEAC -GameStats \
     -GameStatsToken="${GAME_STATS_TOKEN}" -GSLTToken="${GSLT_TOKEN_VANILLA}" \
-    -hostname="[Ten Four] Checkpoint 8vs48 - Hard / 1.0 (Day Only, Waves)"
+    -hostname="[Ten Four] Checkpoint 8vs40 - Hard / 1.0 (Day Only, Waves)"
