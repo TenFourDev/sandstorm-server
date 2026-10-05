@@ -67,3 +67,5 @@
 (Scenario="Scenario_Warehouse_Checkpoint_Insurgents_B",Lighting="Day",Options="?mutators=High")
 (Scenario="Scenario_Warehouse_Checkpoint_Insurgents",Lighting="Day",Options="?mutators=High")
 (Scenario="Scenario_Warehouse_Checkpoint_Security",Lighting="Day",Options="?mutators=High")
+(Scenario="Scenario_Strike_at_Karkand_Checkpoint_Security",Lighting="Day",Options="?mutators=Big")
+(Scenario="Scenario_Strike_at_Karkand_Checkpoint_Insurgents",Lighting="Day",Options="?mutators=Big")
