@@ -87,6 +87,7 @@ services:
     volumes:
       - ./server-vanilla:/home/steam/server
       - ./server-content:/home/steam/server/Insurgency/Content
+      - ./config-inis/EngineVanilla.ini:/home/steam/server/Insurgency/Saved/Config/LinuxServer/_Engine.ini
       - ./config-inis/GameVanilla.ini:/home/steam/server/Insurgency/Saved/Config/LinuxServer/_Game.ini
       - ./config-txts:/home/steam/server/Insurgency/Config/Server
       - ./start_vanilla.sh:/home/steam/server/start.sh

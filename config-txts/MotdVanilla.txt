@@ -5,6 +5,7 @@ NO EXCESSIVE SMOKE / C4 / IED ABUSE!
 
 Checkpoint:
 - 8vs40 AI
+- 10 smoke deployed / round (exceeding this will get you kicked)
 - 1 starting wave, +1 wave per objective
 - 30 seconds wave respawn time
 
