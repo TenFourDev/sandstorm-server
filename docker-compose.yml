@@ -127,9 +127,6 @@ services:
           echo "Current time: $$(date +'%H:%M')"
           if [ "$$(date +'%H:%M')" = "$${RESTART_TIME}" ]; then
             echo "Restarting containers..."
-            docker restart sandstorm 
-            docker restart sandstorm-zombie
-            docker restart sandstorm-zombie-frenzy
             docker restart sandstorm-vanilla
             docker restart sandstorm-vanilla-easy
           fi
