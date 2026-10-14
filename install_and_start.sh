@@ -4,7 +4,6 @@ set -e
 SERVER_DIR="/home/steam/server"
 
 if [ "${RUN_APP_UPDATE:-}" = "true" ]; then
-(
     echo "==> Checking for Insurgency: Sandstorm server updates..."
 
     gosu steam steamcmd \
@@ -14,7 +13,6 @@ if [ "${RUN_APP_UPDATE:-}" = "true" ]; then
         +quit
 
     echo "==> Insurgency: Sandstorm server is up to date."
-) &
 fi
 
 
