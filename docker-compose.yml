@@ -19,8 +19,8 @@ services:
     # environment: 
     #   - RUN_APP_UPDATE=true
     volumes:
-      - ./server:/home/steam/server
-      - ./server-content:/home/steam/server/Insurgency/Content
+      - ./server-content:/home/steam/server
+      - ./server-saved:/home/steam/server/Insurgency/Saved
       - ./mod.io:/home/steam/mod.io
       - ./config-inis/EngineCheckpoint.ini:/home/steam/server/Insurgency/Saved/Config/LinuxServer/_Engine.ini
       - ./config-inis/GameCheckpoint.ini:/home/steam/server/Insurgency/Saved/Config/LinuxServer/_Game.ini
@@ -41,8 +41,8 @@ services:
     env_file:
       - .env
     volumes:
-      - ./server-zombie:/home/steam/server
-      - ./server-content:/home/steam/server/Insurgency/Content
+      - ./server-content:/home/steam/server
+      - ./server-saved-zombie:/home/steam/server/Insurgency/Saved
       - ./mod.io:/home/steam/mod.io
       - ./config-inis/EngineZombie.ini:/home/steam/server/Insurgency/Saved/Config/LinuxServer/_Engine.ini
       - ./config-inis/GameZombie.ini:/home/steam/server/Insurgency/Saved/Config/LinuxServer/_Game.ini
@@ -63,8 +63,8 @@ services:
     env_file:
       - .env
     volumes:
-      - ./server-zombie-frenzy:/home/steam/server
-      - ./server-content:/home/steam/server/Insurgency/Content
+      - ./server-content:/home/steam/server
+      - ./server-saved-zombie-frenzy:/home/steam/server/Insurgency/Saved
       - ./mod.io:/home/steam/mod.io
       - ./config-inis/EngineZombieFrenzy.ini:/home/steam/server/Insurgency/Saved/Config/LinuxServer/_Engine.ini
       - ./config-inis/GameZombieFrenzy.ini:/home/steam/server/Insurgency/Saved/Config/LinuxServer/_Game.ini
@@ -85,8 +85,8 @@ services:
     env_file:
       - .env
     volumes:
-      - ./server-vanilla:/home/steam/server
-      - ./server-content:/home/steam/server/Insurgency/Content
+      - ./server-content:/home/steam/server
+      - ./server-saved-vanilla:/home/steam/server/Insurgency/Saved
       - ./config-inis/EngineVanilla.ini:/home/steam/server/Insurgency/Saved/Config/LinuxServer/_Engine.ini
       - ./config-inis/GameVanilla.ini:/home/steam/server/Insurgency/Saved/Config/LinuxServer/_Game.ini
       - ./config-txts:/home/steam/server/Insurgency/Config/Server
@@ -106,8 +106,8 @@ services:
     env_file:
       - .env
     volumes:
-      - ./server-vanilla-easy:/home/steam/server
-      - ./server-content:/home/steam/server/Insurgency/Content
+      - ./server-content:/home/steam/server
+      - ./server-saved-vanilla-easy:/home/steam/server/Insurgency/Saved
       - ./config-inis/EngineVanilla.ini:/home/steam/server/Insurgency/Saved/Config/LinuxServer/_Engine.ini
       - ./config-inis/GameVanillaEasy.ini:/home/steam/server/Insurgency/Saved/Config/LinuxServer/_Game.ini
       - ./config-txts:/home/steam/server/Insurgency/Config/Server

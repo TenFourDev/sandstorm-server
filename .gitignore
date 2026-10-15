@@ -1,8 +1,8 @@
-server
-server-zombie
-server-zombie-frenzy
-server-vanilla
-server-vanilla-easy
+server-saved
+server-saved-zombie
+server-saved-zombie-frenzy
+server-saved-vanilla
+server-saved-vanilla-easy
 server-content
 mod.io
 .env
