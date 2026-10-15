@@ -9,4 +9,6 @@ Checkpoint:
 - 1 starting wave, +1 wave per objective
 - 30 seconds wave respawn time
 
+Server Restart: 04:30 AM GMT +8
+
 Have Fun!
