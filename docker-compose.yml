@@ -112,6 +112,27 @@ services:
       - ./config-inis/GameVanillaEasy.ini:/home/steam/server/Insurgency/Saved/Config/LinuxServer/_Game.ini
       - ./config-txts:/home/steam/server/Insurgency/Config/Server
       - ./start_vanilla_easy.sh:/home/steam/server/start.sh
+  sandstorm-vanilla-arcade:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sandstorm-vanilla-arcade
+    network_mode: host
+    security_opt:
+      - seccomp:unconfined
+      - systempaths=unconfined
+    cap_add:
+      - SYS_NICE
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./server-content:/home/steam/server
+      - ./server-saved-vanilla-arcade:/home/steam/server/Insurgency/Saved
+      - ./config-inis/EngineVanilla.ini:/home/steam/server/Insurgency/Saved/Config/LinuxServer/_Engine.ini
+      - ./config-inis/GameVanillaArcade.ini:/home/steam/server/Insurgency/Saved/Config/LinuxServer/_Game.ini
+      - ./config-txts:/home/steam/server/Insurgency/Config/Server
+      - ./start_vanilla_arcade.sh:/home/steam/server/start.sh
   sandstorm-restarter:
     image: docker:cli
     container_name: sandstorm-restarter
@@ -129,6 +150,7 @@ services:
             echo "Restarting containers..."
             docker restart sandstorm-vanilla
             docker restart sandstorm-vanilla-easy
+            docker restart sandstorm-vanilla-arcade
           fi
           sleep 60
         done
