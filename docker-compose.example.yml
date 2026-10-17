@@ -33,7 +33,7 @@ services:
       - ./server-content:/home/steam/server
       - ./server-saved:/home/steam/server/Insurgency/Saved
       - ./mod.io:/home/steam/mod.io
-      - ./config-inis/EngineCheckpoint.ini:/home/steam/server/Insurgency/Saved/Config/LinuxServer/_Engine.ini
-      - ./config-inis/GameCheckpoint.ini:/home/steam/server/Insurgency/Saved/Config/LinuxServer/_Game.ini
+      - ./config-inis/EngineEbs.ini:/home/steam/server/Insurgency/Saved/Config/LinuxServer/_Engine.ini
+      - ./config-inis/GameEbs.ini:/home/steam/server/Insurgency/Saved/Config/LinuxServer/_Game.ini
       - ./config-txts:/home/steam/server/Insurgency/Config/Server
       - ./start.sh:/home/steam/server/start.sh
