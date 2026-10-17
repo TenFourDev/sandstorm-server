@@ -1,0 +1,39 @@
+services:
+  sandstorm:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sandstorm
+    network_mode: host
+    security_opt:
+      - seccomp:unconfined
+      - systempaths=unconfined
+    cap_add:
+      - SYS_NICE
+    restart: unless-stopped
+    env_file:
+      - .env
+    # uncomment to install / update the game server on container start
+    # (run only one container at a time while updating)
+    # environment:
+    #   RUN_APP_UPDATE: "true"
+    environment:
+      PORT: "27102"
+      QUERY_PORT: "27131"
+      SERVER_NAME: "Your Server Name"
+      START_MAP: "Tell?Scenario=Scenario_Tell_Survival?MaxPlayers=8"
+      MAX_PLAYERS: "8"
+      MAP_CYCLE: "MapCycle.txt"
+      SECURITY_CODE: "none"
+      MODS: "true"
+      MUTATORS: "Vampirism"
+      GAME_STATS_TOKEN: "..."
+      GSLT_TOKEN: "..."
+    volumes:
+      - ./server-content:/home/steam/server
+      - ./server-saved:/home/steam/server/Insurgency/Saved
+      - ./mod.io:/home/steam/mod.io
+      - ./config-inis/EngineCheckpoint.ini:/home/steam/server/Insurgency/Saved/Config/LinuxServer/_Engine.ini
+      - ./config-inis/GameCheckpoint.ini:/home/steam/server/Insurgency/Saved/Config/LinuxServer/_Game.ini
+      - ./config-txts:/home/steam/server/Insurgency/Config/Server
+      - ./start.sh:/home/steam/server/start.sh

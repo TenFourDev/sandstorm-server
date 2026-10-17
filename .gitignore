@@ -1,9 +1,5 @@
-server-saved
-server-saved-zombie
-server-saved-zombie-frenzy
-server-saved-vanilla
-server-saved-vanilla-easy
-server-saved-vanilla-arcade
+server-saved*
 server-content
 mod.io
 .env
+docker-compose.yml
