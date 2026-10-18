@@ -122,7 +122,7 @@ else
     echo "==> WARNING: GSLT_TOKEN is not set." >&2
 fi
 
-set -- "$@" "-hostname=${SERVER_NAME}"
+set -- "$@" "-hostname=${SERVER_NAME:-Sandstorm Server}"
 
 if [ -n "${EXTRA_ARGS:-}" ]; then
     set -f
