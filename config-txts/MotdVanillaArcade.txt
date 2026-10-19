@@ -4,9 +4,10 @@ Discord: https://discord.tenfour.id
 NO EXCESSIVE SMOKE / C4 / IED ABUSE!
 
 Arcade:
-- 8vs48 AI
+- 8vs64 AI
+- Vampirism (300 max HP)
 - 10 smoke deployed / round (exceeding this will get you kicked)
-- 25 starting waves, +10 waves per objective
+- 8 starting waves, +8 waves per objective
 - 5 seconds wave respawn time
 - Faster Movement
 
