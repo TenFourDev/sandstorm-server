@@ -5,3 +5,4 @@ mod.io
 docker-compose*.yml
 !docker-compose.example.yml
 *Test.ini
+Bans.json
