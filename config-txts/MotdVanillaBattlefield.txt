@@ -5,9 +5,9 @@ NO EXCESSIVE SMOKE / C4 / IED ABUSE!
 
 Arcade:
 - 12vs96 AI
-- Vampirism (250 max HP)
+- Vampirism (500 max HP)
 - 10 smoke deployed / round (exceeding this will get you kicked)
-- 6 starting waves, +6 waves per objective
+- 3 starting waves, +3 waves per objective
 - 10 seconds wave respawn time
 
 Server Restart: 04:30 AM GMT +8
